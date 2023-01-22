@@ -1,0 +1,26 @@
+{
+  "name": "node.js-server",
+  "version": "1.0.0",
+  "description": "Live Chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shadi Mkahoul",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20",
+    "re": "^0.1.4",
+    "socket.io": "^4.5.4",
+    "util": "^0.12.5"
+  }
+}
